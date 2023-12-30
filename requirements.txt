@@ -1,8 +1,0 @@
-imbalanced-learn
-mlflow
-numpy
-pandas
-scikit-learn
-streamlit
-xgboost
-zenml
