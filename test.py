@@ -7,6 +7,7 @@ model_path = os.path.join('saved_models', 'model.pkl')
 with open(model_path, 'rb') as file:
     model = pickle.load(file)
     
+    
 input_data = (0,228,3,1,2,1,1.0,1.0,1.0,1,1,0.0)
 
 # changing the input_data to numpy array
