@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/My%20projects/House%20Rent%20Prediction/mlruns/0/d657d3266e4c49229cf4dc863d16f1cd/artifacts
+end_time: 1703918617483
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d657d3266e4c49229cf4dc863d16f1cd
+run_name: ambitious-stork-911
+run_uuid: d657d3266e4c49229cf4dc863d16f1cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703918610091
+status: 3
+tags: []
+user_id: sprav

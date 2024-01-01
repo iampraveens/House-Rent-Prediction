@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/My%20projects/House%20Rent%20Prediction/mlruns/0/957a6f63166547678c0573d95b2982cc/artifacts
+end_time: 1703915817833
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 957a6f63166547678c0573d95b2982cc
+run_name: puzzled-fawn-758
+run_uuid: 957a6f63166547678c0573d95b2982cc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703915809754
+status: 3
+tags: []
+user_id: sprav

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/My%20projects/House%20Rent%20Prediction/mlruns/0/f992e193bd4e486489c469a1f9b3b3a7/artifacts
+end_time: 1703918944173
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f992e193bd4e486489c469a1f9b3b3a7
+run_name: bemused-grub-6
+run_uuid: f992e193bd4e486489c469a1f9b3b3a7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703918937056
+status: 3
+tags: []
+user_id: sprav

@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/My%20projects/House%20Rent%20Prediction/mlruns/0/a941491862e34b82a3e0b614530906cf/artifacts
+end_time: 1703918701949
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a941491862e34b82a3e0b614530906cf
+run_name: languid-lark-528
+run_uuid: a941491862e34b82a3e0b614530906cf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703918693948
+status: 3
+tags: []
+user_id: sprav

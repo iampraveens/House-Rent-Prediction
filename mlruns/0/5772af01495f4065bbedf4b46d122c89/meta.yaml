@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/My%20projects/House%20Rent%20Prediction/mlruns/0/5772af01495f4065bbedf4b46d122c89/artifacts
+end_time: 1703919049057
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5772af01495f4065bbedf4b46d122c89
+run_name: caring-mare-916
+run_uuid: 5772af01495f4065bbedf4b46d122c89
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703919041736
+status: 3
+tags: []
+user_id: sprav

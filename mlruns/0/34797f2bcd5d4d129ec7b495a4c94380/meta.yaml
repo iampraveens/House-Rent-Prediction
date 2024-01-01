@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/My%20projects/House%20Rent%20Prediction/mlruns/0/34797f2bcd5d4d129ec7b495a4c94380/artifacts
+end_time: 1703918991204
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 34797f2bcd5d4d129ec7b495a4c94380
+run_name: victorious-wasp-27
+run_uuid: 34797f2bcd5d4d129ec7b495a4c94380
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703918983230
+status: 3
+tags: []
+user_id: sprav

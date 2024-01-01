@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/My%20projects/House%20Rent%20Prediction/mlruns/0/41ea5b05996e43a2aa77298b96dcf098/artifacts
+end_time: 1703918462679
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41ea5b05996e43a2aa77298b96dcf098
+run_name: monumental-slug-334
+run_uuid: 41ea5b05996e43a2aa77298b96dcf098
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703918455803
+status: 3
+tags: []
+user_id: sprav

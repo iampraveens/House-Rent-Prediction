@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/My%20projects/House%20Rent%20Prediction/mlruns/0/b34dc0743f1948c687d7488f85bfd0a5/artifacts
+end_time: 1703918847552
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b34dc0743f1948c687d7488f85bfd0a5
+run_name: loud-fox-821
+run_uuid: b34dc0743f1948c687d7488f85bfd0a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1703918840571
+status: 3
+tags: []
+user_id: sprav
