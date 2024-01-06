@@ -5,7 +5,7 @@ from steps.load_data import load_df
 from steps.model_train import (XGBoostRegressor_Model, GradientBoostingRegressor_Model, 
                                RandomForestRegressor_Model)
 from src.data_cleaning import ( DataCleaning, DataPreProcessStrategy, 
-                               DataSplitStrategy, DataScaleStrategy )
+                               DataSplitStrategy, DataScaleStrategy)
 
 
 def predict_model():
