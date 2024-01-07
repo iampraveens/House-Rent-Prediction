@@ -11,7 +11,7 @@ from src.utils import LoadModel
 url = "https://cdn-icons-png.flaticon.com/512/13644/13644020.png"
 response = requests.get(url)
 image = Image.open(BytesIO(response.content))
-page_title = 'House Rent Prediction'
+page_title = 'Rental Property Price Prediction'
 page_icon = image
 layout = 'wide'
 
@@ -19,6 +19,64 @@ st.set_page_config(page_title=page_title,
                    page_icon=page_icon,
                    layout=layout
                    )
+
+hide_style = '''
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            header {visibility: hidden;}
+            <style>
+            
+            '''
+header_style = '''
+             <style>
+             .navbar {
+                 position: fixed;
+                 top: 0;
+                 left: 0;
+                 width: 100%;
+                 z-index: 1;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 height: 80px;
+                 background-color: #273D59;
+                 box-sizing: border-box;
+             }
+             
+             .navbar-brand {
+                 color: white !important;
+                 font-size: 23px;
+                 text-decoration: none;
+                 margin-right: auto;
+                 margin-left: 50px;
+             }
+             
+             .navbar-brand img {
+                margin-bottom: 6px;
+                margin-right: 1px;
+                width: 40px;
+                height: 40px;
+                justify-content: center;
+            }
+            
+            /* Add the following CSS to change the color of the text */
+            .navbar-brand span {
+                color: #EF6E04;
+                justify-content: center;
+            }
+            
+             </style>
+             
+             <nav class="navbar">
+                 <div class="navbar-brand">
+                <img src="https://cdn-icons-png.flaticon.com/512/13644/13644020.png" alt="Logo">
+                    Rental Property Price Prediction
+                 </div>
+             </nav>
+               '''
+st.markdown(hide_style, unsafe_allow_html=True)
+st.markdown(header_style, unsafe_allow_html=True)
 
 def locality_class():
     label_encoder = LabelEncoder()
@@ -58,7 +116,7 @@ with column_3:
     parking = st.selectbox('Select Parking', parking_key.keys())
     bathroom = st.number_input('Enter no of bathrooms')
     cup_board = st.number_input('Enter no of cup boards')
-    floor = st.number_input('Enter no of floors')
+    floor = st.number_input('Enter the floor')
     
 with column_5:
     water_supply = st.selectbox('Select water supply', water_supply_key.keys())
@@ -96,4 +154,4 @@ with column_1:
         user_input = user_input.fillna(0)
         user_input = user_input.apply(pd.to_numeric, errors='coerce').fillna(0).astype(int)
         prediction = loaded_model.predict(user_input)
-        st.success(*prediction)
+        st.success(f'{prediction[0]:.2f} INR.')
