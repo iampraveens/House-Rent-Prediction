@@ -4,7 +4,7 @@
 
 This project provides a comprehensive pipeline for predicting rental property prices based on various features. It encompasses data cleaning, model training, evaluation, and a user-friendly interface for predictions.
 
-## Application: (Access the application)[https://rental-property-price-prediction.onrender.com/]
+## Application: [Access the application](https://rental-property-price-prediction.onrender.com/)
 
 ## Table of Contents
 - [Overview](#overview)
