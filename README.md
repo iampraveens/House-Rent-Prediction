@@ -29,7 +29,7 @@ The project structure is organized as follows:
 - `src/`: Source code files, including data cleaning strategies, model development, and utilities.
 - `saved_models/`: Stores trained machine learning models.
 - `utils.py`: Utility functions for model saving and loading.
-- `app.py`: Streamlit-based web application for predicting car prices.
+- `app.py`: Streamlit-based web application for predicting rent prices.
 - `requirements.txt`: Python dependencies for the project.
 - `Dockerfile`: Docker configuration for containerizing the web app.
 
