@@ -4,6 +4,8 @@
 
 This project provides a comprehensive pipeline for predicting rental property prices based on various features. It encompasses data cleaning, model training, evaluation, and a user-friendly interface for predictions.
 
+## Application: (Access the application)[https://rental-property-price-prediction.onrender.com/]
+
 ## Table of Contents
 - [Overview](#overview)
 - [Project Structure](#project-structure)
@@ -21,7 +23,7 @@ The Rental Property Price Prediction project harnesses machine learning to estim
 ## Project Structure
 The project structure is organized as follows:
 
-- `data/`: Contains the dataset (`car_data.csv`) used for training and predictions.
+- `data/`: Contains the dataset (`house_rent.csv`) used for training and predictions.
 - `pipelines/`: Includes ZenML pipelines for data cleaning, model training, and evaluation.
 - `steps/`: Custom Python scripts for data loading, model training, and evaluation.
 - `src/`: Source code files, including data cleaning strategies, model development, and utilities.
